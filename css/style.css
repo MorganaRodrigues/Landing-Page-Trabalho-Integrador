@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 40px;
+  background-image: url("https://i.ibb.co/5YkQ7h4/header.gif");
+  background-size: 100% 100%;
+  color: #ec3778;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  display: flex;
+  background-color: #ec3778;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  color: white;
+  padding: 16px 22px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #fafafa;
+  color: #ec3778;
+}
+
+/* Column container */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #ffeef4;
+  padding: 20px;
+}
+
+.equipe p {
+  width: 135px;
+  text-align: center;
+  font-size: 10px;
+}
+.equipe {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: block;
+}
+
+/* Main column */
+.main {
+  flex: 70%;
+  background-color: #ffeef4;
+  padding: 20px;
+}
+.funcionalidades-esquerda {
+  background-color: #ffeef4;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.funcionalidades-esquerda p {
+  width: 135px;
+  text-align: center;
+  font-size: 10px;
+  margin-bottom: 30px;
+}
+
+/* Footer */
+.footer {
+  background: #ffeef4;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: block;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media (max-width: 700px) {
+  .row,
+  .navbar {
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media (min-width: 1490px) {
+  .header {
+    background-color: #fafafa;
+    background-image: none;
+  }
+}
+@media (max-width: 1200px) {
+  .header {
+    background-color: #fafafa;
+    background-image: none;
+  }
+}
