@@ -300,6 +300,9 @@ input[type="submit"]:hover {
   flex-direction: column;
   padding: 20px;
   }
+  .celular{
+    width: 150px;
+  }
 }
 @media (max-width: 1082px) {
   .espaco-oculto{
