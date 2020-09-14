@@ -52,6 +52,10 @@ body {
   padding: 20px;
 }
 
+.texto-centro{
+  text-align: center;
+}
+
 .borda {
   text-align: justify;
   font-size: 14px;
@@ -109,7 +113,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.recursos span{
+.recursos div{
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -146,16 +150,9 @@ body {
 }
 
 @media (max-width: 440px) {
-  .organiza{
-    flex-direction: wrap;
-    }
-}
-
-@media (max-width: 440px) {
-  .funcionalidades-esquerda, .celular{
+  .celular, .tudo {
     flex-direction: column;
-    width: 100px;
-    }
+  }
 }
 
 details {
@@ -264,14 +261,11 @@ input[type="submit"]:hover {
 
 .footer {
   background-color: #ffeef4;
-  align-items: center;
-  text-align: center;
   font-size: 12px;
-  width: 50%;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
+  width: 70%;
 }
 
 .fim{
@@ -285,8 +279,6 @@ input[type="submit"]:hover {
   .grid,
   .navbar{
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   }
 }
 @media (min-width: 1490px) {
