@@ -29,6 +29,25 @@ body {
   align-items: center;
 }
 
+.hr{
+  width: 100%;
+  border: 0;
+	border-top: 2px solid #f8bbd0;
+}
+
+.espaco-oculto{
+  width: 100%;
+  border: 0;
+  border-top: 2px solid #f8bbd0;
+  display: none;
+}
+
+.hr-oculta{
+  width: 100%;
+  border: 0;
+  border-top: 2px solid #f8bbd0;
+}
+
 .navbar a {
   color: white;
   padding: 14px 20px;
@@ -279,17 +298,24 @@ input[type="submit"]:hover {
   .grid,
   .navbar{
   flex-direction: column;
+  padding: 20px;
   }
 }
+@media (max-width: 1082px) {
+  .espaco-oculto{
+    display: block;
+  }
+}
+
 @media (min-width: 1490px) {
   .header {
-    background-color: #fafafa;
+    background-color: #f8bbd0;
     background-image: none;
   }
 }
 @media (max-width: 1200px) {
   .header {
-    background-color: #fafafa;
+    background-color: #f8bbd0;
     background-image: none;
   }
 }
