@@ -105,6 +105,13 @@ body {
   justify-content: center;
   align-items: center;
 }
+.cancer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  justify-content: center;
+  align-items: center;
+}
 
 .equipe p {
   width: 135px;
@@ -219,7 +226,7 @@ details > p {
 }
 
 .espaco {
-  margin-right: 80px;
+  margin-right: 40px;
   transition: all 0.5s;
   border: 5px solid transparent;
 }
@@ -297,17 +304,33 @@ input[type="submit"]:hover {
 
 @media (max-width: 700px) {
   .grid,
-  .navbar,
-  .main {
+  .navbar{
     flex-direction: column;
-    padding: 20px;
     justify-content: center;
     align-items: center;
+    padding: 20px;
+    flex: none;
+    flex-wrap: unset;
   }
 }
 @media (max-width: 1082px) {
   .espaco-oculto {
     display: block;
+  }
+  .celular{
+    width: 150px;
+  }
+  .organiza i {
+    font-size: 15px;
+  }
+  .organiza{
+    flex-direction: column;
+  }
+  .funcionalidades-esquerda {
+    font-size: 10px;
+  }
+  .intro{
+    font-size: 12px;
   }
 }
 
