@@ -17,7 +17,7 @@ body {
   font-size: 30px;
 }
 
-.header p{
+.header p {
   font-size: 13px;
 }
 
@@ -29,20 +29,20 @@ body {
   align-items: center;
 }
 
-.hr{
+.hr {
   width: 100%;
   border: 0;
-	border-top: 2px solid #f8bbd0;
+  border-top: 2px solid #f8bbd0;
 }
 
-.espaco-oculto{
+.espaco-oculto {
   width: 100%;
   border: 0;
   border-top: 2px solid #f8bbd0;
   display: none;
 }
 
-.hr-oculta{
+.hr-oculta {
   width: 100%;
   border: 0;
   border-top: 2px solid #f8bbd0;
@@ -71,22 +71,22 @@ body {
   padding: 20px;
 }
 
-.texto-centro{
+.texto-centro {
   text-align: center;
 }
 
 .borda {
   text-align: justify;
   font-size: 14px;
-  border:2px solid #f8bbd0;
+  border: 2px solid #f8bbd0;
   padding: 16px;
 }
 
-.esquerda{
+.esquerda {
   float: left;
 }
 
-.direita{
+.direita {
   float: right;
 }
 
@@ -118,7 +118,7 @@ body {
   padding: 20px;
 }
 
-.intro{
+.intro {
   text-align: justify;
   font-size: 16px;
 }
@@ -132,7 +132,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.recursos div{
+.recursos div {
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -156,11 +156,11 @@ body {
   display: flex;
 }
 
-.organiza i{
-  font-size:30px;
+.organiza i {
+  font-size: 30px;
 }
 
-.funcionalidades-esquerda{
+.funcionalidades-esquerda {
   color: white;
   text-align: center;
   font-size: 12px;
@@ -169,7 +169,8 @@ body {
 }
 
 @media (max-width: 440px) {
-  .celular, .tudo {
+  .celular,
+  .tudo {
     flex-direction: column;
   }
 }
@@ -217,27 +218,27 @@ details > p {
   border-radius: 70%;
 }
 
-.espaco{
+.espaco {
   margin-right: 80px;
   transition: all 0.5s;
   border: 5px solid transparent;
 }
 
-.espaco:hover{
+.espaco:hover {
   border: 5px solid #f8bbd0;
   border-radius: 70%;
 }
 
-.contato{
+.contato {
   margin-bottom: 70px;
 }
 
-.contato p{
+.contato p {
   font-size: 13px;
 }
 
-.contato i{
-  font-size:20px;
+.contato i {
+  font-size: 20px;
   color: #f8bbd0;
 }
 
@@ -287,7 +288,7 @@ input[type="submit"]:hover {
   width: 70%;
 }
 
-.fim{
+.fim {
   text-align: left;
   font-size: 10px;
   margin-left: 10px;
@@ -296,16 +297,16 @@ input[type="submit"]:hover {
 
 @media (max-width: 700px) {
   .grid,
-  .navbar{
-  flex-direction: column;
-  padding: 20px;
-  }
-  .celular{
-    width: 150px;
+  .navbar,
+  .main {
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
   }
 }
 @media (max-width: 1082px) {
-  .espaco-oculto{
+  .espaco-oculto {
     display: block;
   }
 }
