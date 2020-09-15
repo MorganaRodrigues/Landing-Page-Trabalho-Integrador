@@ -160,10 +160,24 @@ body {
   color: white;
   margin-left: auto;
   margin-right: auto;
+}
+
+.aa{
+  flex-direction: wrap;
   display: flex;
 }
 
-.organiza i {
+.teste {
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: row;
+  display: flex;
+}
+
+.teste i {
   font-size: 30px;
 }
 
@@ -171,7 +185,6 @@ body {
   color: white;
   text-align: center;
   font-size: 12px;
-  flex-direction: column;
   background-color: #f8bbd0;
 }
 
@@ -288,11 +301,11 @@ input[type="submit"]:hover {
 
 .footer {
   background-color: #ffeef4;
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 80%;
 }
 
 .fim {
@@ -317,17 +330,8 @@ input[type="submit"]:hover {
   .espaco-oculto {
     display: block;
   }
-  .celular{
-    width: 150px;
-  }
-  .organiza i {
-    font-size: 15px;
-  }
-  .organiza{
+  .aa {
     flex-direction: column;
-  }
-  .funcionalidades-esquerda {
-    font-size: 10px;
   }
   .intro{
     font-size: 12px;
